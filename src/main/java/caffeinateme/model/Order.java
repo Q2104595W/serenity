@@ -42,6 +42,9 @@ public class Order {
         return new OrderBuilder(quantity, product);
     }
 
+    public void add(Order order) {
+    }
+
     public static class OrderBuilder {
 
         private final int quantity;

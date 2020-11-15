@@ -27,8 +27,9 @@ public class Customer {
     }
 
     public static class CustomerOrderBuilder {
+        //private Integer distanceInMetres;
         private Order order;
-        private final Integer distanceInMetres;
+        private Integer distanceInMetres;
 
         public CustomerOrderBuilder(Order order, Integer distanceInMetres) {
             this.order = order;
